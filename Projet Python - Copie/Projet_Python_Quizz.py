@@ -604,32 +604,32 @@ def quiz_films_series(written_id):
         print("Faux. La bonne réponse était bien Walter White.")
 
     print("-------------------------------------------------------------------")
-    print("Quel événement a marqué la fin de la Seconde Guerre mondiale ?")
+    print("Dans la série Arcane, de qui Jinx est réellement amoureuse ?")
     print("-------------------------------------------------------------------")
-    print("1--> La libération de Paris")
-    print("2--> La chute de Berlin")
-    print("3--> La capitulation du Japon")
-    print("4--> Le débarquement en Normandie")
+    print("1--> D'Ekko.")
+    print("2--> De Silco")
+    print("3--> De Vi.")
+    print("4--> De Vander.")
     rep = input("Entrez votre choix.")
-    if rep == "3":
+    if rep == "2":
         print("Bravo, c'est la bonne réponse !")
         score += 1
     else:
-        print("Faux. La bonne réponse était la capitulation du Japon.")
+        print("Faux. La bonne réponse était de Silco.")
 
     print("-------------------------------------------------------------------")
-    print("Quel technique physio-chimique permet de séparer différentes \n substences d'un mélange ?")
+    print("Dans la série Games of Thrones quelle est la devise de la maison \n Stark ?")
     print("-------------------------------------------------------------------")
-    print("1--> L'nalyse radiochimie")
-    print("2--> Le titrage")
-    print("3--> La chromatographie")
-    print("4--> L'analyse gravimétrique")
+    print("1--> L'hiver vient.")
+    print("2--> Ce qui est mort, ne peux pas mourir.")
+    print("3--> Le nord s'en souvient.")
+    print("4--> Croître avec vigueur.")
     rep = input("Entrez votre choix.")
-    if rep == "3":
+    if rep == "1":
         print("Bravo, c'est la bonne réponse !")
         score += 1
     else:
-        print("Faux. La bonne réponse était la chromatographie.")
+        print("Faux. La bonne réponse était l'hiver vient.")
 
     print("-------------------------------------------------------------------")
     print(" Dans la série Narcos, quel est le nom du cartel de la saison 3 ?")
